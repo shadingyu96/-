@@ -66,7 +66,6 @@ class TestDemo:
         result = self.calc.div(a, b)
         assert expect == result
 
-
     def teardown(self):
         print("计算结束")
 

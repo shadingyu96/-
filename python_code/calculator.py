@@ -13,6 +13,4 @@ class Calculator:
 
 
 if __name__ == '__main__':
-    # a = Calculator()
-    # print(a.add(!, 、))
     pass
