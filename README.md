@@ -1,4 +1,2 @@
-### pytest实战一作业
-./python_code  计算器代码块
-
-./testing 计算器测试用例代码
+##企业微信实战作业一
+./test_wechat
