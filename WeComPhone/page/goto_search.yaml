@@ -1,0 +1,3 @@
+- by: id
+  locator: hk9
+  action: click

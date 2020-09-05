@@ -15,7 +15,7 @@ class TestWeCom:
         # 1.进入通讯录页 2.添加部门
         assert name in self.index.goto_login().goto_main().goto_contact().goto_add_department().add_department(name)
 
-    @pytest.mark.parametrize("name, acctid, phone", [("圣枪游侠", 29490867, 13750034676)], ids=["主页添加成员"])
+    @pytest.mark.parametrize("name, acctid, phone", [("奥巴马", 294908672, 13750034677)], ids=["主页添加成员"])
     def test_main_add_member(self, name, acctid, phone):
         # 主页点击添加成员
         assert name in self.index.goto_login().goto_main().goto_add_member().add_member(name, acctid, phone).get_member_list()
