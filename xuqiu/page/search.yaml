@@ -1,8 +1,0 @@
-search:
-  - id: search_input_text
-  - send: "{search}"
-  - id: name
-  - click: []
-price:
-  - xpath: //*[@text='BABA']/../../..//*[@resource-id='com.xueqiu.android:id/current_price']
-  - text: []
