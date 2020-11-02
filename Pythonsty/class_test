@@ -1,0 +1,18 @@
+# class Person(object):
+#     name = "hh"
+#
+#     def __init__(self,cls,name):
+#         self.name = name
+#
+#     @classmethod
+#     def eat(cls):
+#         print(f"{cls.name}正在吃")
+#
+#
+# # zx = Person("张三")
+# # zx.eat()
+#
+# print(Person.name)
+# Person.eat()
+
+print("!" + "/")

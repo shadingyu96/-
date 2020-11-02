@@ -1,0 +1,39 @@
+"Status","Name","Duration in ms","Description"
+"passed","test_calc.TestDemo#test_add","1","
+        测试整数、零、字符、负数、大数相加
+        :param expect: 预计结果
+        :param a:第一位加数
+        :param b:第二位加数
+
+        "
+"passed","test_calc.TestDemo#test_div_str","0",""
+"passed","test_calc.TestDemo#test_div","1",""
+"passed","test_calc.TestDemo#test_add_str","0",""
+"passed","test_calc.TestDemo#test_add_str","1",""
+"passed","test_calc.TestDemo#test_div","1",""
+"passed","test_calc.TestDemo#test_add_float","1",""
+"passed","test_calc.TestDemo#test_add","1","
+        测试整数、零、字符、负数、大数相加
+        :param expect: 预计结果
+        :param a:第一位加数
+        :param b:第二位加数
+
+        "
+"passed","test_calc.TestDemo#test_add_float","1",""
+"passed","test_calc.TestDemo#test_div_str","1",""
+"passed","test_calc.TestDemo#test_div","1",""
+"passed","test_calc.TestDemo#test_add","0","
+        测试整数、零、字符、负数、大数相加
+        :param expect: 预计结果
+        :param a:第一位加数
+        :param b:第二位加数
+
+        "
+"passed","test_calc.TestDemo#test_add","1","
+        测试整数、零、字符、负数、大数相加
+        :param expect: 预计结果
+        :param a:第一位加数
+        :param b:第二位加数
+
+        "
+"passed","test_calc.TestDemo#test_div_str","1",""
