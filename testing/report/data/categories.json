@@ -1,5 +1,61 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "pytest_assume.plugin.FailedAssumption: \n2 Failed Assumptions:\n\ntest_calc.py:27: AssumptionFailure\n>>\tpytest.assume(2 == 4)\nAssertionError: assert False\n\ntest_calc.py:28: AssumptionFailure\n>>\tpytest.assume(3 == 4)\nAssertionError: assert False",
+      "children" : [ {
+        "name" : "test_add[整数]",
+        "uid" : "dae97516d40fd699",
+        "parentUid" : "90a6f652fdb2760d192110ca8fce206c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1607572746307,
+          "stop" : 1607572746306,
+          "duration" : -1
+        },
+        "flaky" : true,
+        "parameters" : [ "[2, 3, 5]" ]
+      }, {
+        "name" : "test_add[零数]",
+        "uid" : "a14705918341b8f2",
+        "parentUid" : "90a6f652fdb2760d192110ca8fce206c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1607572746549,
+          "stop" : 1607572746548,
+          "duration" : -1
+        },
+        "flaky" : true,
+        "parameters" : [ "[0, 5, 5]" ]
+      }, {
+        "name" : "test_add[大数]",
+        "uid" : "719cde8d7c04f1fc",
+        "parentUid" : "90a6f652fdb2760d192110ca8fce206c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1607572746799,
+          "stop" : 1607572746798,
+          "duration" : -1
+        },
+        "flaky" : true,
+        "parameters" : [ "[2000, 3000, 5000]" ]
+      }, {
+        "name" : "test_add[负数]",
+        "uid" : "733ca28f5bdf39c3",
+        "parentUid" : "90a6f652fdb2760d192110ca8fce206c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1607572747048,
+          "stop" : 1607572747047,
+          "duration" : -1
+        },
+        "flaky" : true,
+        "parameters" : [ "[-3, -5, -8]" ]
+      } ],
+      "uid" : "90a6f652fdb2760d192110ca8fce206c"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }

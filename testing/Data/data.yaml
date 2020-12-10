@@ -1,5 +1,5 @@
-Data:
-  add:
+add:
+  datas:
     -
       - 2
       - 3
@@ -21,7 +21,8 @@ Data:
     - "零数"
     - "大数"
     - "负数"
-  add_float:
+add_float:
+  datas:
     -
       - 0.1
       - 0.2
@@ -30,7 +31,11 @@ Data:
       - -0.1
       - -0.2
       - -0.3
-  add_Special:
+  myids:
+    - "正浮点数"
+    - "负浮点数"
+add_Special:
+  datas:
     -
       - !
       - 、
@@ -39,7 +44,11 @@ Data:
       - a
       - b
       - ab
-  div:
+  myids:
+    - "标点符号相加"
+    - "字母相加"
+div:
+  datas:
     -
       - 2
       - 1
@@ -52,7 +61,12 @@ Data:
       - 0
       - 3
       - 0
-  div_Special:
+  myids:
+    - "正数相除"
+    - "负数相除"
+    - "分子为0相除"
+div_Special:
+  datas:
     - - !
       - 、
       - 异常
@@ -62,3 +76,7 @@ Data:
     - - 3
       - 0
       - 异常
+  myids:
+    - "标点符号相除"
+    - "字母相除"
+    - "分母为0相除"
